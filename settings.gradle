@@ -1,0 +1,3 @@
+include ':crashlibrary'
+include ':app'
+rootProject.name = "CrashHelperDemo"

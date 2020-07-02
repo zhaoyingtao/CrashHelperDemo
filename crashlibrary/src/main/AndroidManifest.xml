@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.snow.crash">
+
+    <application>
+        <activity
+            android:name=".CrashActivity"
+            android:screenOrientation="portrait" />
+    </application>
+</manifest>
