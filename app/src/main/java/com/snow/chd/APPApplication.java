@@ -11,13 +11,11 @@ import com.snow.crash.CrashHandler;
  * Describe:
  */
 public class APPApplication extends Application {
+    String LOCAL_PATH = Environment.getExternalStorageDirectory().getAbsolutePath()
+            + "/Android/data/" + getApplicationContext().getPackageName() + "/";
     @Override
     public void onCreate() {
         super.onCreate();
-        //工具类的初始化
-        String LOCAL_PATH = Environment.getExternalStorageDirectory().getAbsolutePath()
-                + "/Android/data/" + getApplicationContext().getPackageName() + "/";
-
         CrashHandler.getInstance()
                 .init(this, LOCAL_PATH)//这个必须调用
                 .setIsShowCrashActivity(true)//崩溃后是否跳转崩溃日志activity 默认不跳
