@@ -25,9 +25,9 @@ android {
 
 publish {
     userOrg = 'zhaoyingtao'
-    groupId = 'com.snow.zhao'
+    groupId = 'com.snow.helper'
     artifactId = 'crash-handler'
-    publishVersion = '0.0.6'
+    publishVersion = '0.0.7'
     desc = 'Oh hi, this is a nice description for a project, right?'
 }
 dependencies {
