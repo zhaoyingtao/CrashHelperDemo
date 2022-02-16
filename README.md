@@ -2,7 +2,7 @@
 crash辅助工具
 
 # 在build.gradle中引入  
-` implementation 'com.snow.helper:crash-handler:0.0.7' `
+` implementation 'com.github.zhaoyingtao:CrashHelperDemo:v0.0.7' `
 # 初始化，最好放在application中初始化
 ```
 String LOCAL_PATH = Environment.getExternalStorageDirectory().getAbsolutePath()
